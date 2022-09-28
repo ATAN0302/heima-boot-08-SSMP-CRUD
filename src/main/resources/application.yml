@@ -1,5 +1,6 @@
 server:
   port: 80
+
 spring:
   datasource:
     druid:
@@ -7,10 +8,11 @@ spring:
       url: jdbc:mysql://localhost:3306/ssm?serverTimezone=UTC
       username: root
       password: "000000"
-mybatis-plus:
-  global-config:
-    db-config:
-      id-type: auto
 
-  configuration:
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#mybatis-plus:
+#  global-config:
+#    db-config:
+#      id-type: auto
+#
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

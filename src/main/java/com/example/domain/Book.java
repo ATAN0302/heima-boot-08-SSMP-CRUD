@@ -10,16 +10,13 @@ import lombok.NoArgsConstructor;
  * <p>
  * 2022-09-24 17:16
  */
-@TableName("topic")
+@TableName("tbl_book")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 public class Book {
     private Integer id;
-    private String tag_name;
-    private String Name;
-    private String url;
-    private String weight;
-    private String note;
-
+    private String type;
+    private String name;
+    private String description;
 }

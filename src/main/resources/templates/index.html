@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script type="text/javascript">
+    function hello(name,age){
+        alert("你好"+name+age)
+    }
+
+    function printNum(n){
+        for (var i = 0 ; i < n; i++){
+            console.log(i)
+        }
+    }
+</script>
+
+<input type="button" value="打招呼" onclick="hello('jack',99)">
+<input type="button" value="控制台打印" onclick="printNum(100)">
+
+
+</body>
+</html>
